@@ -14,10 +14,9 @@ while NumberOfRounds<3:
   NumberOfRounds += 1
   if PlayerOption == Player2Option:
     print('Tie')
-  elif (PlayerOption =='Rock' and Player2Option == 'Scissors') or (PlayerOption =='Scissos' and Player2Option =='Paper') or (PlayerOption =='Paper' and Player2Option =='Rock'):
+  elif (PlayerOption =='Rock' and Player2Option == 'Scissors') or (PlayerOption =='Scissors' and Player2Option =='Paper') or (PlayerOption =='Paper' and Player2Option =='Rock'):
     print("Player win")
     PlayerScore += 1
-  elif (Player2Option =='Rock' and PlayerOption == 'Scissors') or (Player2Option =='Scissors' and PlayerOption =='Paper') or (Player2Option =='Paper' and PlayerOption =='Rock'):
     print(f"{name.title()} Wins")
     Player2Score += 1
   else:
