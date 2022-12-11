@@ -7,14 +7,14 @@ NumberOfRounds=0
 gameOn=True
 print(f"Welcome to game: {name.title()}")
 while NumberOfRounds<3:
-  PlayerOption=random.choice(choices)
-  Player2Option=input("Enter Rock/ Paper/ Scissors :").title()
-  print(f"Player option :{PlayerOption}")
-  print(f"{name.title()} option :{Player2Option}")
+  PlayerChoice=random.choice(choices)
+  Player2Choice=input("Enter Rock/ Paper/ Scissors :").title()
+  print(f"Player Choice :{PlayerChoice}")
+  print(f"{name.title()} choice :{Player2Choice}")
   NumberOfRounds += 1
-  if PlayerOption == Player2Option:
+  if PlayerChoice == Player2Choice:
     print('Tie')
-  elif (PlayerOption =='Rock' and Player2Option == 'Scissors') or (PlayerOption =='Scissors' and Player2Option =='Paper') or (PlayerOption =='Paper' and Player2Option =='Rock'):
+  elif (PlayerChoice =='Rock' and Player2Choice == 'Scissors') or (PlayerChoice =='Scissors' and Player2Choice =='Paper') or (PlayerChoice =='Paper' and Player2Choice =='Rock'):
     print("Player win")
     PlayerScore += 1
     print(f"{name.title()} Wins")
