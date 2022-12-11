@@ -1,5 +1,6 @@
-import random
+print("\nWelcome to Rock, Paper, Scissors")
 
+import random
 
 def make_choice():
     choice_to_check = int(input("\nPlay a Game --> enter: 1\nQuit --> enter: 2\n\nMake your choice: "))
@@ -40,7 +41,6 @@ def play_game():
         print("You loser! Next time.")
 
     make_choice()
-
 
 print("\nWelcome to Rock, Paper, Scissors")
 
