@@ -42,6 +42,4 @@ def play_game():
 
     make_choice()
 
-print("\nWelcome to Rock, Paper, Scissors")
-
 make_choice()
